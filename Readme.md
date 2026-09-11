@@ -32,10 +32,10 @@ During the GSoC 2026 coding period, overall branch test coverage on `kiwix-andro
 | **Lines Covered** | 9,445 / 15,615 lines | 14,789 / 18,176 lines | **+5,344 lines** |
 
 ### Before GSoC (60.48% Coverage)
-![Codecov Coverage Before GSoC - 60.48%](/Users/atharvyadav/.gemini/antigravity-ide/brain/14326f8e-372f-4add-95e3-812aa7300c17/codecov_before.png)
+![Codecov Coverage Before GSoC - 60.48%](assets/codecov_before.png)
 
 ### After GSoC (81.36% Coverage)
-![Codecov Coverage After GSoC - 81.36%](/Users/atharvyadav/.gemini/antigravity-ide/brain/14326f8e-372f-4add-95e3-812aa7300c17/codecov_after.png)
+![Codecov Coverage After GSoC - 81.36%](assets/codecov_after.png)
 
 ---
 
@@ -331,9 +331,9 @@ There were some genuinely hard problems during the summer:
 
 ## Final Outcome
 
-Over the summer I delivered **22 pull requests** to `kiwix/kiwix-android`. The work covers substantial test coverage improvement (60.48% → 81.36%, a +20.88% overall increase), a more reliable test infrastructure, a Compose migration, and production bug fixes.
+Over the course of GSoC 2026, I delivered **22 pull requests** to `kiwix/kiwix-android`. The most visible result of this work was pushing project-wide test coverage from **60.48% to 81.36% (+20.88%)**, but the bigger win was making the testing suite and CI pipeline genuinely dependable for the entire team. Beyond testing infrastructure, I modernized legacy UI with Jetpack Compose and solved real production bugs affecting notification reliability on Android 12+.
 
-Going into GSoC I knew how to write tests, but I didn't really understand what makes a test suite actually trustworthy at scale. Working with Mohit and contributing to a real production app taught me that — and it's something I'll carry into every project I work on going forward.
+Before this summer, I knew how to write unit tests in isolation, but GSoC taught me what it actually takes to build reliable, deterministic test suites in a large production codebase. Working alongside Mohit Mali and Gouri Panda helped me grow into a much more disciplined engineer thinking not just about writing code, but about test architecture, long-term maintainability, and shipping code that millions of offline learners can depend on.
 
 ---
 
